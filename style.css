@@ -1,0 +1,126 @@
+/*
+	Theme Name: Hello Elementor
+	Theme URI: https://elementor.com/hello-theme/?utm_source=wp-themes&utm_campaign=theme-uri&utm_medium=wp-dash
+	Description: Hello Elementor is a lightweight and minimalist WordPress theme that was built specifically to work seamlessly with the Elementor site builder plugin. The theme is free, open-source, and designed for users who want a flexible, easy-to-use, and customizable website. The theme, which is optimized for performance, provides a solid foundation for users to build their own unique designs using the Elementor drag-and-drop site builder. Its simplicity and flexibility make it a great choice for both beginners and experienced Web Creators.
+	Author: Elementor Team
+	Author URI: https://elementor.com/?utm_source=wp-themes&utm_campaign=author-uri&utm_medium=wp-dash
+	Version: 3.4.5
+	Stable tag: 3.4.5
+	Requires at least: 6.0
+	Tested up to: 6.8
+	Requires PHP: 7.4
+	License: GNU General Public License v3 or later.
+	License URI: https://www.gnu.org/licenses/gpl-3.0.html
+	Text Domain: hello-elementor
+	Tags: accessibility-ready, flexible-header, custom-colors, custom-menu, custom-logo, featured-images, rtl-language-support, threaded-comments, translation-ready,
+*/
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: white;
+    z-index: 9999;
+    box-shadow: 0px 0px 5px 0px #0000001f;
+}
+.sticky .logo-image img {
+    width: 80px !important;
+}
+
+.side-box .elementor-widget-wrap.elementor-element-populated{
+    border: 2px dashed #e5ac1b !important;
+    border-radius: 46px;
+}
+.not-show  .elementor-widget-wrap.elementor-element-populated{
+    border: none !important;
+    border-radius: 46px;
+}
+textarea {
+    height: 139px !important;
+}
+input.wpcf7-form-control.wpcf7-submit.has-spinner {
+    border: none;
+}
+
+/*.post-page-design {*/
+/*    width: 1325px;*/
+/*    margin: 0 auto;*/
+/*}*/
+.page-header {
+    padding: 120px 0px;
+    text-align: center;
+    color: white;
+    background: #21293b;
+}
+.page-header h1{
+    color: white;
+}
+.single-post main#content {
+    margin-top: 20px;
+}
+.post-page-design  .page-header h1.entry-title {
+    margin: 0;
+}
+.post-page-design  .e-con-inner {
+    width: 100% !important;
+    margin: 0 !important;
+    max-width: 100% !important;
+}
+.all-center .elementskit-funfact-inner.position_top {
+    text-align: center;
+}
+@media screen and (max-width: 768px) {
+ .post-page-design {
+    width: 100%;
+    margin: 0 auto;
+}
+.whatsapp-button  i {
+    font-size: 25px !important;
+    color: white;
+}
+.whatsapp-button {
+    width: 50px !important;
+    height: 50px !important;
+}
+}
+.all-center div {
+    text-align: center !important;
+}
+
+.whatsapp-button {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 60px;
+    height: 60px;
+    background: #25d366;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.whatsapp-button  i {
+    font-size: 35px;
+    color: white;
+}
+.whatsapp-button {
+   animation: zoom-in-zoom-out 1s ease-out infinite;
+} 
+.Become-volunteer {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+}
+
+@keyframes zoom-in-zoom-out {
+  0% {
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: scale(1.2, 1.2);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
